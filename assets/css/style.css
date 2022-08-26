@@ -1,0 +1,89 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.header{
+    background-color: #ddd;
+    padding: 20px 10px;
+}
+.gfont{
+    margin-right: -8px;
+}
+.grev{
+    margin-left: 5px;
+}
+.killed{
+    padding: 50px;
+}
+.heading-kill{
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.card-section{
+    background-color: #ddd;
+    padding: 50px 10px;
+}
+.card{
+    padding: 30px 10px 0px;
+    height: 100%;
+    width: 100%;
+    transform: scale(1);
+    transition: all .4s ease-in-out;
+}
+.card:hover{
+    transform: scale(1.08);
+}
+.card-body{
+    position: relative;
+   
+}
+.h-card{
+    font-size: 12px;
+    color:#fff;    
+    position: absolute;
+    top:0px;
+    right: 0px;
+    transform: translate(12px,-25px);
+}
+.card-h1{
+    font-size:20px ;
+    border-radius: 3px;
+    padding: 5px;
+}
+.card-h2{
+    font-size: 20px;
+    font-weight: 600;
+}
+.infor{  
+    text-overflow: ellipsis;
+    overflow: hidden;
+    font-size: 14px;
+    margin-bottom: 30px;
+    white-space: nowrap;
+}
+.date{
+    font-size: 18px;
+    height: 20%;
+    color:rgb(186, 135, 135)
+}
+.btn{
+    margin-bottom: 10px;
+    padding: auto;
+    
+}
+.blue{
+    background-color: blue;
+}
+.green{
+    background-color: green;
+}
+.orange{
+    background-color: orange;
+}
+
+
+/* .count::after {
+    content: "Type1";
+  } */
